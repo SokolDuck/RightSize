@@ -163,15 +163,13 @@
 #### 2.3.2\. Диаграмма активности <a name = "2.1.2"></a>
 ![calculate](diagrams/activity_diagrams/calculate.PNG)
 
-## 3\. Диаграмма последовательности <a name = "1"></a>
+## 3\. Диаграмма последовательности <a name = "3"></a>
 ![sequence_diagram](diagrams/sequence_diagram/sequence_diagram.PNG)
 
-## 4\. Диаграмма состояний <a name = "1"></a>
+## 4\. Диаграмма состояний <a name = "4"></a>
 ![state_mashine_diagram](diagrams/state_mashine_diagram/state_mashine_diagram.png)
 
-## 5\. Диаграмма классов <a name = "1"></a>
-![class_diagram](diagrams/class_mashine_diagram/class_diagram.PNG)
 
 
-## 6\. Диаграмма развертывания <a name = "1"></a>
+## 6\. Диаграмма развертывания <a name = "6"></a>
 ![deployment_diagram](diagrams/deployment_diagram/deployment_diagram.PNG)
