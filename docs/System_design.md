@@ -1,7 +1,7 @@
 # System design (UML)
 
 
-1. [Диаграмма использования](#1)<br>
+1. [Диаграмма вариантов использования](#1)<br>
 	1.1 [Описание актеров](#1.1)<br>
 2. [Варианты использования](#2)<br>
  	2.1. [Выбор пола](#2.1)<br>
@@ -40,10 +40,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;2.3.1. [Поток событий](#2.3.1)<br>
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;2.3.2. [Диаграмма активности](#2.3.2)<br>
 3. [Диаграмма последовательности](#3)<br>
+4. [Диаграмма состояний](#4)<br>
+5. [Диаграмма классов](#5)<br>
+6. [Диаграмма развертывания](#6)<br>
 
 
 
-## 1\. Диаграмма использования <a name = "1"></a>
+## 1\. Диаграмма вариантов использования <a name = "1"></a>
 ![use_case_diagram](diagrams/use_case_diagram/use_case_diagram.PNG)
 ### 1.1\. Описание актеров <a name = "2.1"></a>
 <b> Актер: </b> Пользователь .<br>
@@ -162,3 +165,13 @@
 
 ## 3\. Диаграмма последовательности <a name = "1"></a>
 ![sequence_diagram](diagrams/sequence_diagram/sequence_diagram.PNG)
+
+## 4\. Диаграмма состояний <a name = "1"></a>
+![state_mashine_diagram](diagrams/state_mashine_diagram/state_mashine_diagram.png)
+
+## 5\. Диаграмма классов <a name = "1"></a>
+![class_diagram](diagrams/class_mashine_diagram/class_diagram.PNG)
+
+
+## 6\. Диаграмма развертывания <a name = "1"></a>
+![deployment_diagram](diagrams/deployment_diagram/deployment_diagram.PNG)
