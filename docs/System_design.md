@@ -169,6 +169,8 @@
 ## 4\. Диаграмма состояний <a name = "4"></a>
 ![state_mashine_diagram](diagrams/state_mashine_diagram/state_mashine_diagram.png)
 
+## 5\. Диаграмма классов <a name = "5"></a>
+![class_diagram](diagrams/class_diagram/class_diagram.PNG)
 
 
 ## 6\. Диаграмма развертывания <a name = "6"></a>
