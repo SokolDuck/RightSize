@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         textViewWaist = (TextView) findViewById(R.id.textViewWaist);
         textViewNeck = (TextView) findViewById(R.id.textViewNeck);
 
+        buttonMan.setBackgroundColor(Color.LTGRAY);
+        buttonWoman.setBackgroundColor(Color.WHITE);
+
         buttonIncreaseBuest.setOnClickListener(buestClickListener);
         buttonREduceBuest.setOnClickListener(buestClickListener);
 
@@ -203,8 +206,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     textViewNeck.setVisibility(View.VISIBLE);
                     neck.setVisibility(View.VISIBLE);
 
-                    buttonMan.setEnabled(false);
-                    buttonWoman.setEnabled(true);
+                    buttonMan.setBackgroundColor(Color.LTGRAY);
+                    buttonWoman.setBackgroundColor(Color.WHITE);
 
                     textViewBuest.setText(String.valueOf((MAX_MAN_BUEST + MIN_MAN_BUEST) / 2));
                     textViewHips.setText(String.valueOf((MAX_MAN_HIPS + MIN_MAN_HIPS) / 2));
@@ -220,8 +223,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     textViewNeck.setVisibility(View.INVISIBLE);
                     neck.setVisibility(View.INVISIBLE);
 
-                    buttonMan.setEnabled(true);
-                    buttonWoman.setEnabled(false);
+                    buttonMan.setBackgroundColor(Color.WHITE);
+                    buttonWoman.setBackgroundColor(Color.LTGRAY);
 
                     textViewBuest.setText(String.valueOf((MAX_WOMAN_BUEST + MIN_WOMAN_BUEST) / 2));
                     textViewHips.setText(String.valueOf((MAX_WOMAN_HIPS + MIN_WOMAN_HIPS) / 2));

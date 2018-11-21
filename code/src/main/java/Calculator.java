@@ -17,6 +17,12 @@ public class Calculator {
     private int sizeByHips;
     private int sizeByNeck = 0;
 
+    final static float APPLLE_MIN = 0.75;
+    final static float APPLLE_MAX = 1;
+    final static float HOURGLASS_MIN = 0.65;
+    final static float HOURGLASS_MAX = 0.75;
+    final static float PEAR_MAX = 0.65;
+
 
     public Calculator(boolean flag, Context c, int b, int w, int h, int n) {
         isMan = flag;
@@ -126,9 +132,8 @@ public class Calculator {
             }
         }
         cursor.moveToFirst();
-        int a = getMax();
         while (cursor.moveToNext()) {
-            if (cursor.getInt(sizeColumnIndex) == a) {
+            if (cursor.getInt(sizeColumnIndex) == getMax()) {
                 result.rusSize = cursor.getInt(sizeColumnIndex);
                 result.USASize = cursor.getInt(sizeUSAColumnIndex);
                 result.worldSize = cursor.getString(sizeWorldColumnIndex);
@@ -159,15 +164,15 @@ public class Calculator {
 
     public void typeOfBody() {
         float k = ((float) waist) / ((float) hips);
-        if (1 > k && k > 0.75) {
+        if (APPLLE_MAX > k && k > APPLLE_MIN) {
             result.typeOfBody = "Яблоко";
             return;
         }
-        if (0.75 > k && k > 0.65) {
+        if (HOURGLASS_MAX > k && k > HOURGLASS_MIN) {
             result.typeOfBody = "Песочные часы";
             return;
         }
-        if (k < 0.65) {
+        if (k < PEAR_MAX) {
             result.typeOfBody = "Груша ";
             return;
         }
