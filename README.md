@@ -11,5 +11,7 @@
 <b>1 [Документация](docs)<br>
 <b>1.1 [Спецификация требований](docs/Requirements.md)<br>
 <b>1.2 [Проектирование системы](docs/System_design.md)<br>
-
+<b>2 [Тестирование](docs/test)<br>
+<b>2.1 [План тестирования](docs/test/TestPlan.md)<br>
+<b>2.2 [Результаты тестирования](docs/test/TestResults.md)<br>
 
